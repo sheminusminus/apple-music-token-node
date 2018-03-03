@@ -1,0 +1,30 @@
+{
+  "name": "apple-music-token-node",
+  "version": "1.0.0",
+  "description": "generate developer tokens for the apple music api in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheminusminus/apple-music-token-node.git"
+  },
+  "keywords": [
+    "apple",
+    "music",
+    "developer",
+    "token",
+    "node"
+  ],
+  "author": "Emily Kolar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sheminusminus/apple-music-token-node/issues"
+  },
+  "homepage": "https://github.com/sheminusminus/apple-music-token-node#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.2.0",
+    "moment": "^2.21.0"
+  }
+}
