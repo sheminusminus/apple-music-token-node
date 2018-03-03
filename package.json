@@ -1,6 +1,6 @@
 {
   "name": "apple-music-token-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generate developer tokens for the apple music api in node",
   "main": "index.js",
   "scripts": {
