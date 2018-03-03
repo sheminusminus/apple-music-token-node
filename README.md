@@ -1,5 +1,9 @@
 ## apple music token generator for node
 
+use javascript to generate your developer tokens for use with the apple music api.
+
+adapted from: https://github.com/pelauimagineering/apple-music-token-generator/blob/master/music_token.py
+
 ### usage
 
 clone, download, or copy-paste this script somewhere in your node project.
