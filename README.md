@@ -2,17 +2,22 @@
 
 use javascript to generate your developer tokens for use with the apple music api.
 
-adapted from: https://github.com/pelauimagineering/apple-music-token-generator/blob/master/music_token.py
+*adapted from: https://github.com/pelauimagineering/apple-music-token-generator/blob/master/music_token.py*
 
-### usage
+### install
+
+```
+npm install -S apple-music-token-node
+```
+
+-or-
 
 clone, download, or copy-paste this script somewhere in your node project.
 
-place the .p8 private key file you generated somewhere accessible.
+### usage
 
-include or require your `teamId` and `keyId` from apple.
+make sure you've placed the .p8 private key file you generated somewhere accessible. also, include or require your `teamId` and `keyId` from apple.
 
-then just:
 
 ```
 const path = require('path');
