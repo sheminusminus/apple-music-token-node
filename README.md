@@ -21,8 +21,8 @@ make sure you've placed the .p8 private key file you generated somewhere accessi
 
 ```
 const path = require('path');
+const getToken = require('apple-music-token-node');
 
-const getToken = require('./path-to-this-script');
 const { teamId, keyId } = require('./path-to-your-config');
 
 const certPath = path.resolve(__dirname, './path-to-your-p8-file');
