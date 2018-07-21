@@ -4,11 +4,14 @@
   "description": "generate developer tokens for the apple music api in node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sheminusminus/apple-music-token-node.git"
+  },
+  "bin": {
+    "amtn": "./cli.js"
   },
   "keywords": [
     "apple",
@@ -26,5 +29,13 @@
   "dependencies": {
     "jsonwebtoken": "^8.2.0",
     "moment": "^2.21.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.0.0",
+    "mocha": "^5.2.0"
   }
 }
