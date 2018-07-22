@@ -48,5 +48,5 @@ amtn
 and it will prompt you for the data needed to generate your developer token.
 (prints to the console).
 
-![Data entered correctly:](https://imgur.com/a/wDg8Wfv)
-![Basic file path suggestion for incorrect entries:](https://imgur.com/a/wDg8Wfv)
+![Data entered correctly:](https://i.imgur.com/Z9yXFte.png)
+![Basic file path suggestion for incorrect entries:](https://i.imgur.com/nUunmcI.png)
