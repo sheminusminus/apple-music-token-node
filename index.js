@@ -7,14 +7,15 @@ const moment = require('moment');
  * @param {string} certPath - Absolute path to your .p8 private key file
  * @param {string} teamId - Developer team id
  * @param {string} keyId - Music Key id
- * @returns {Object<string, *>} tokenData - ES256 encoded JWT token, and time of expiration
+ * @param {string} hoursValid - Hours until the key should expire
+ * @returns {{token: string, expires: timestamp}} tokenData - ES256 encoded JWT token, and time of expiration
  */
-const getToken = (certPath, teamId, keyId) => {
+const getToken = (certPath, teamId, keyId, hoursValid = 12) => {
   const alg = 'ES256';
   const cert = fs.readFileSync(certPath);
 
   const now = moment().unix();
-  const expiration = moment().add(12, 'hours').unix();
+  const expiration = moment().add(hoursValid, 'hours').unix();
 
   const header = {
     alg,
