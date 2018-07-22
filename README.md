@@ -1,4 +1,6 @@
-## apple music token generator for node
+## apple music token node
+
+[![Build Status](https://travis-ci.org/sheminusminus/apple-music-token-node.svg?branch=master)](https://travis-ci.org/sheminusminus/apple-music-token-node)
 
 use javascript to generate your developer tokens for use with the apple music api.
 
@@ -48,5 +50,5 @@ amtn
 and it will prompt you for the data needed to generate your developer token.
 (prints to the console).
 
-![Data entered correctly:](https://i.imgur.com/Z9yXFte.png)
-![Basic file path suggestion for incorrect entries:](https://i.imgur.com/nUunmcI.png)
+![Data entered correctly](https://i.imgur.com/Z9yXFte.png)
+![Basic file path suggestion for incorrect entries](https://i.imgur.com/nUunmcI.png)
