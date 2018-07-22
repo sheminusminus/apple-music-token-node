@@ -30,3 +30,23 @@ const tokenData = getToken(certPath, teamId, keyId);
 
 // tokenData == { token: 'generated_token', expiresAt: timeInSeconds }
 ```
+
+### cli mode
+
+cli mode to help generate quick tokens during development. for this, install globally:
+
+```
+npm i -g apple-music-token-node
+```
+
+then you can run
+
+```
+amtn
+```
+
+and it will prompt you for the data needed to generate your developer token.
+(prints to the console).
+
+![Data entered correctly:](https://imgur.com/a/wDg8Wfv)
+![Basic file path suggestion for incorrect entries:](https://imgur.com/a/wDg8Wfv)
