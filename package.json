@@ -1,7 +1,7 @@
 {
   "name": "apple-music-token-node",
-  "version": "1.0.2",
-  "description": "generate developer tokens for the apple music api in node",
+  "version": "1.1.0",
+  "description": "generate developer tokens for the apple music api in node, with a CLI mode for development.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive test"
@@ -18,7 +18,8 @@
     "music",
     "developer",
     "token",
-    "node"
+    "node",
+    "cli"
   ],
   "author": "Emily Kolar",
   "license": "MIT",
