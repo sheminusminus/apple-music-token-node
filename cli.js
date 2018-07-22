@@ -8,6 +8,7 @@ const gen = require('./lib/gen');
 const log = console.log;
 
 clear();
+
 const amtnAscii = figlet.textSync('amtn <3', { horizontalLayout: 'default', font: 'Swan' });
 const amtnPretty = chalk.magenta.bold(amtnAscii);
 
@@ -22,7 +23,7 @@ const run = async () => {
   const time = await inquiry.askExpiration();
   if (confirm) altPath = inquiry.getAltPath();
   const tokenData = gen(altPath || fp.filePath, team.teamId, key.keyId, time.expires)
-  console.log(tokenData);
+  log(tokenData);
 };
 
 run();
