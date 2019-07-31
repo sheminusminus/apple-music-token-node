@@ -28,15 +28,15 @@
   },
   "homepage": "https://github.com/sheminusminus/apple-music-token-node#readme",
   "dependencies": {
-    "jsonwebtoken": "^8.2.0",
-    "moment": "^2.21.0"
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "chalk": "^2.4.1",
+    "chai": "^4.2.0",
+    "chalk": "^2.4.2",
     "clear": "^0.1.0",
-    "figlet": "^1.2.0",
-    "inquirer": "^6.0.0",
-    "mocha": "^5.2.0"
+    "figlet": "^1.2.3",
+    "inquirer": "^6.5.0",
+    "mocha": "^6.2.0"
   }
 }
