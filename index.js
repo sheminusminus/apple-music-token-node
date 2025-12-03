@@ -102,5 +102,6 @@ const getTokenAsync = (certPath, teamId, keyId, hoursValid = 12) => {
   });
 };
 
+module.exports.getResult = getResult;
 module.exports.getToken = getToken;
 module.exports.getTokenAsync = getTokenAsync;
